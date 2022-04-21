@@ -1,0 +1,20 @@
+ <form action = "/register" method = "POST">
+    <div id = "box">
+        <h2 >Register</h2>
+        <br>
+        <input type="email" name="userId" placeholder="Your Email Address" required>
+
+        <input type="password" name="pass" placeholder="Your Password" required>
+
+        <input type="submit" name="submit" value="Register">
+        <br>
+        <div id="errorMsg"><p>{{ msg }}</p></div>
+        <br>
+        <p>Already have account? <a href="../">Log In</a></p>
+    </div>
+</form>
+
+
+
+
+

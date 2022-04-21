@@ -1,0 +1,13 @@
+ <form action = "/" method = "POST">
+    <div id = "box">
+        <h2 >Login</h2>
+        <br>
+        <input type="email" name="userId" placeholder="Your Email Address" required>
+        <input type="password" name="pass" placeholder="Your Password" required>
+        <input type="submit" name="submit" value="LOGIN">
+        <br>
+        <div id="errorMsg"><p>{{ msg }}</p></div>
+        <br>
+        <p>Don't have account? <a href="register">Sign Up</a></p>
+    </div>
+</form>

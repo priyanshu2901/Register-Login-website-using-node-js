@@ -1,0 +1,54 @@
+#box {
+    border: 0;
+    text-align: center;
+    padding: 10%;
+    background: rgba(0,0,0, 0.5); 
+    border-radius: 20px;
+}
+#errorMsg{
+    color: red;
+}
+body{
+    color: white;
+    font-family: "Tahoma", Courier, monospace;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 600px;
+}
+.centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#cover {
+    background: url("cover.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+input {
+    width: 100%;
+    padding: 14px 22px;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: white;
+}
+input[type="submit"]{
+    background-color:  #4682B4;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
