@@ -1,0 +1,5 @@
+# Register-Login-website-using-node-js
+
+When you first open the website it will redirect you to the login page, using this you can log in to your account and if you don't have an account there is a link present that says 'Don't have an account? sign up'. When you click on this it will redirect you to another page which is the register page. On the registration page, there is a link that says 'Already have an account? log in' you can click on it to redirect to the login page.
+When you enter the credentials on the login page the data is submitted and we check whether that username and password are present in the file or not. If it's present then an okay message is displayed otherwise a message 'Invalid username or password' will display in red color on the login page.
+When you try to register on the registration page then we check whether that username already exister in our file or not, if it's present then an error message 'Username Already exist' in red color will display on the register page. If it's a new username that a message will say 'Account Created, you can log in now' on the login page.
